@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: 'Lato', sans-serif;
+  font-size:24px;
+  color:#fff;
+  margin:auto;
+}
+.inner {
+  width: 800px;
+}
+.landing {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/green-landscapes-nature-trees-phone.jpg);
+}
+.main-section {
+  height: 800px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.main-section-header {
+  color: white;
+  
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+
+.header-top {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  /*padding: 10px 30px;*/
+  margin: auto;
+}
+.link {
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.logo {
+  color: #fff;
+  font-weight: 300;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+
+.drugibox{
+	color:#000;
+	text-align:center;
+	width:800px;
+	margin:auto;
+	padding-top:30px;
+	padding-bottom:30px;
+	}
+	
+.kolortla{
+	background-color:#CCC;}
+	
+.skalabox{
+	width:70%;
+	margin:auto;
+	}
+
+.ramka{
+	
+	padding: 20px 20px 0px 20px;
+	background-color: #fff;
+	border-top:thin solid #CCC;
+	border-left:thin solid #CCC;
+	border-right:thin solid #CCC;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	}
+	
+.mojeCaruzel{
+		display:flex;
+	align-items:flex-end; /* flex-start | flex-end | center | baseline | stretch; */
+	justify-content: flex-end;       /* flex-start | flex-end | center | space-between | space-around | space-evenly /* aligm-item i justify-content dziala z wartoscia width lub flex-basis*/}
+	
+	
+.trzecibox{
+	display: flex;
+	color: #333;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+	
+	
+.row-przestrzen{
+	justify-content:space-around;
+		 }
+	
+.ramka2{
+			color:#F03;
+	}
+	
+.margines{
+	margin-left:15px;
+	}
+	
+.iconskolor2{
+	border: thin solid #CCC;
+	padding:12px;
+	border-radius:6px;
+	margin-left:10px;
+	margin-right:10px;
+	}
+	
+	
+.darkbg{
+	background-color:#CCC;
+	height:300px;
+	}
+	
+.czwartbox{
+	text-align:center;
+	width:600px;
+	margin:auto;
+	padding-top:30px;
+	padding-bottom:30px;
+	}
+	
+.formattext{
+	text-align:center;
+	color:#666;
+	}
+	
+.redbox {
+	background-color:#F66;
+	height:200px;
+	justify-content: center;
+	align-items:center;
+	display:flex;
+	}
+	
+
+.metodaflextest{
+		color:#FFF;
+
+	}
+	
+.h2 {
+	line-height:200px;
+	}
+	
+	
+#footer {
+	color:#666;
+	padding-top:50px;
+	padding-bottom:50px;
+	margin: auto;
+	flex-wrap:wrap;
+	flex-direction:column;
+	}
+
+ .guzik{
+	 color:#FFF;
+	 padding:55px;
+	 margin:55px;
+	 float:right;
+	 }
+.icons{
+	display:flex;
+	 justify-content:center;
+	 align-content:center;
+	 	font-size: 14px;
+		
+	}
+	
+	
+.iconskolor{
+	color:#666;
+	border: thin solid #666;
+	padding:3px;
+	border-radius:3px;
+	margin-left:10px;
+	margin-right:10px;
+	}
+
+
+.iconskolor a {color: #666;} 
+       a:hover {color: #666;}          
+
+	
+.menu{
+	 color:#666;
+	 font-size: 12px;
+	 display:flex;
+	 justify-content:center;
+	 align-content:center;
+	}
+	
+
+.menu a {color: #666;} /* np. niebieski */  
+      a:hover {color: #F66;}          
+
+	
+.copyright{
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	}
+	
+
+.copyright a {color: #666;} /* np. niebieski */
+		   a:link {
+	color: #F66;
+}  
+           a:hover {color: #F66;}          
+
+@media(max-width:1000px) {
+  /* 
+  DO SZEROK0;OSCI EKRANU 1000PX USTAWIA WYSOKOSC NA 500PX, 
+  POWYZEJ 1000PX WYSKOSC ZMIENIA SIE NA 800PX  
+  */
+
+  .main-section {
+    height: 500px;
+  }
+}
+@media(max-width:600px) {
+  /* DO SZEROKOSCI EKRANU 600PX NAWIGACJA SIE NIE WYSWIETLA, 
+  POWYZEJ 600PX SZEROKOSCI, NAWIGACJA SIE POJAWIA 
+  */
+  .nav-top {
+    visibility: hidden;
+  } 
+}
